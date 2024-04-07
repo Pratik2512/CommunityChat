@@ -6,7 +6,7 @@ import "firebase/storage";
  
 const firebaseConfig = {
   apiKey: import.meta.env.VITE_API_KEY,
-  //AIzaSyDBNlTxowlNUK94Mbd4nr3yo7UufgnESd8",
+  //AIzaSyDBNlTxowlNUK94Mbd4nr3yo7UufgnESd8",    
   authDomain: "collabcraze-d0632.firebaseapp.com",
   projectId: "collabcraze-d0632",
   storageBucket: "collabcraze-d0632.appspot.com",

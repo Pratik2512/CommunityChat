@@ -11,12 +11,10 @@ ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <AuthProvider>
       <RoomProvider>
-        <ScreenProvider>
-
+        <ScreenProvider> 
           <BrowserRouter>
             <App />
-          </BrowserRouter>
-          
+          </BrowserRouter> 
         </ScreenProvider>
       </RoomProvider>
     </AuthProvider>
