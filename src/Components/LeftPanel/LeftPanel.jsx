@@ -35,7 +35,7 @@ const LeftPanel = ({ setShowChat, showChat }) => {
     
   }, [RoomsList])
 
-   console.log(roomData);
+  //  console.log(roomData);
   return (
     <div className={showChat ? "left_panel hide" : "left_panel"}>
 
