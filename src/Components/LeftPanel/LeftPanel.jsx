@@ -42,9 +42,7 @@ const LeftPanel = ({ setShowChat, showChat }) => {
       {showAddRoom && <NewRoom setShowAddRoom={setShowAddRoom} />}
       <div style={{display:"flex", justifyContent:'space-between', paddingRight:'40px',alignItems:'center'}}>
       <h2>Rooms</h2>
-      <p style={{fontSize:'20px', fontWeight:'bold'}}>Resources <a href="https://tybca.netlify.app" target="_blank">📚</a></p><br/>
-      <div></div>
-      <p>Playground</p>
+      <p style={{fontSize:'20px', fontWeight:'bold'}}>Resources <a href="https://tybca.netlify.app" target="_blank">📚</a></p> 
       </div>
       <div className="left_bar">
         <div className="search_contain">
