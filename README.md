@@ -15,9 +15,9 @@ Made using ReactJs and Firebase
 
 ## Sneak peek
 
-<img src="screenshots/1.jpeg" width="100%">
-<img src="screenshots/2.jpeg" width="100%">
-<img src="screenshots/3.jpeg" width="100%">
+<img src="screenshots/1.jpg" width="100%">
+<img src="screenshots/2.jpg" width="100%">
+<img src="screenshots/3.jpg" width="100%">
 <img src="screenshots/4.jpeg" width="100%">
 
 ## Dependencies
