@@ -1,0 +1,79 @@
+.right_panel .chat_box .chat_header {
+    z-index: 70;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 20px;
+    text-transform: capitalize;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    -webkit-box-shadow: 0 5px 4px -6px darkgrey;
+    -moz-box-shadow: 0 5px 4px -6px darkgrey;
+    box-shadow: 0 5px 4px -6px darkgrey;
+}
+
+.right_panel .chat_box .chat_header .header_left {
+    display: flex;
+    gap: 20px;
+    cursor: pointer;
+}
+
+.right_panel .chat_box .chat_header .header_left .back {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+
+.right_panel .chat_box .chat_header .room_options {
+    font-size: 25px;
+    cursor: pointer;
+    position: relative;
+}
+
+.right_panel .chat_box .chat_header .backdrop {
+    position: fixed;
+    z-index: 90;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    cursor: default;
+}
+
+.right_panel .chat_box .chat_header .room_menu {
+    background-color: white;
+    position: absolute;
+    top: 50px;
+    right: 25px;
+    z-index: 100;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid rgb(238, 238, 238);
+}
+
+.right_panel .chat_box .chat_header .room_menu .del_room_btn {
+    outline: none;
+    border: none;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: #ff4154;
+    color: white;
+    cursor: pointer;
+}
+
+.right_panel .chat_box .chat_header .room_menu .popup_option {
+    cursor: pointer;
+}
+
+.right_panel .chat_box .chat_header .room_avatar {
+    height: 30px;
+    border-radius: 50%;
+    object-fit: cover;
+    width: 30px;
+}

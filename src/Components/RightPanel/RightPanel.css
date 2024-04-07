@@ -1,0 +1,159 @@
+.right_panel{
+    padding-bottom: 20px;
+    padding-right: 20px;
+    overflow: hidden;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+.right_panel .chat_box{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    flex: 1;
+    overflow: hidden;
+}
+
+.right_panel .chat_box .chats_contain{
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
+    display: flex;
+    gap: 10px;
+    flex-direction: column-reverse;
+}
+.right_panel .chat_box .input_bar_contain{
+    height: 50px;
+    padding: 10px;
+}
+.right_panel .chat_box .input_bar_contain .input_bar_box{
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgb(192, 192, 192);
+    border-radius: 10px;
+}
+.right_panel .chat_box .input_bar_contain .input_bar_box form{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.right_panel .chat_box .input_bar_contain .input_bar_box .msg_textbox{
+    padding: 5px;
+    font-size: 18px;
+    outline: none;
+    flex: 12;
+    outline: none;
+    border: none;
+    background-color: transparent;
+}
+.right_panel .chat_box .input_bar_contain .input_bar_box .file_selector_btn{
+    color: gray;
+    cursor: pointer;
+}
+.right_panel .chat_box .input_bar_contain .input_bar_box .file_selector_btn:hover{
+    color: black;
+}
+.right_panel .chat_box .input_bar_contain .input_bar_box .msg_submit_btn{
+    cursor: pointer;
+    height: 32px;
+    width: 32px;
+    margin-right: 10px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    background-color: #613eb6;
+    color: white;
+}
+.right_panel .chat_box .input_bar_contain .input_bar_box .msg_submit_btn:disabled{
+    background-color: #7766a0;
+}
+.right_panel .scrollbar
+{
+	float: left;
+	overflow-y: scroll;
+}
+.right_panel .loader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+
+.room_details_contain{
+    display: flex;
+    flex-direction: column;
+    z-index: 85;
+    border-radius: 0px 10px 10px 0px;
+    position: absolute;
+    right: 0px;
+    background-color: white;
+    box-shadow: -1px 0px 3px 0px rgba(207, 207, 207, 0.493);
+    height: 100%;
+    width: 50%;
+}
+.room_details_contain .top_avatar_contain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 3;
+    position: relative;
+}
+.room_details_contain .top_avatar_contain .close_details_page
+{
+    font-size: 30px;
+    cursor: pointer;
+    position: absolute;
+    top:20px;
+    right: 20px;
+}
+.room_details_contain .top_avatar_contain .top_avatar_img_contain{
+    height: 130px;
+    width: 130px;
+    background-color: #613eb6;
+    border-radius: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.room_details_contain .top_avatar_contain .top_avatar{
+    height: 130px;
+}
+.room_details_contain .details_content_contain{
+    flex: 7;
+    margin: 0px 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.room_details_contain .details_content_contain .room_name{
+    font-size: 30px;
+    /* background-color: aqua; */
+    margin: 15px 0px 20px 0px;
+    text-transform: capitalize;
+}
+.room_details_contain .details_content_contain .created_by{
+    /* background-color: rgb(245, 245, 245); */
+    border: 1px solid rgb(238, 238, 238);
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    padding: 10px;
+    /* margin: 15px; */
+    border-radius: 10px;
+    gap: 20px;
+}
+.room_details_contain .details_content_contain .created_by .creator_img{
+    height: 40px;
+    border-radius: 50%;
+}
