@@ -140,7 +140,7 @@ const Header = ({ user }) => {
                 accept="image/*"
               />
               <a
-                href="mailto:brijrajparmaromegab32@gmail.com"
+                href="mailto:pratikmohite1401@gmail.com"
                 className="popup_option"
               >
                 Report bug
